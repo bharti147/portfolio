@@ -459,7 +459,7 @@ const particlesLoaded = useCallback(async container => {
       <div className="projectBox">
        
         <ProjectCard name={"PeakShape Gym"} title={"Gym Website using React,Sass & Rapid API"}  gitURL={"https://github.com/bharti147/peakshape"}     url={"https://peakshapegym.netlify.app/"} />
-        <ProjectCard name={"Portfolio"} title={"Website using React & CSS"}     gitURL={"https://github.com/bharti147/portfolio"}     url={portfolio} />
+        <ProjectCard name={"Portfolio"} title={"Website using React & CSS"}     gitURL={"https://github.com/bharti147/portfolio"}     url={"https://portfoliobharti.netlify.app/"} />
         <ProjectCard name={"Tourify"} title={"Trip planner using React,Sass & Rapid API"}  gitURL={"https://github.com/bharti147/tourify"}     url={""} />
         <ProjectCard name={"Github ReadMe"} title={"My Profile ReadMe"} gitURL={"https://github.com/bharti147"}    url={"https://github.com/bharti147"} />
       </div>
