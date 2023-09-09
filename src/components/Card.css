@@ -1,0 +1,114 @@
+.card{
+    display: flex;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 22%;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 1%;
+    box-shadow:5px 5px 5px 2px rgb(54, 54, 54);
+    border-radius: 10px;
+    background-color: white;
+    
+
+}
+.card-img{
+    height: 50%;
+    width: 100%;
+  padding: 10% ;
+  /* border: 1px solid red; */
+  text-align: center;
+
+}
+.card-info {
+    /* padding: 3%; */
+    height: 50%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-img img{
+    height: 100%;
+    width: 40%;
+    /* color: white; */
+  
+}
+.card-info h2{
+    cursor: pointer;
+    color: black;
+    /* color: white; */
+    text-decoration: none;
+   
+}
+
+.card-info h2:hover{
+    color: rgb(255, 244, 244);
+    
+}
+.card-info p{
+    font-size: 1.1rem;
+}
+
+
+
+
+/*-------------------DESKTOP AND LAPTOPS----------------------------------------------- */
+@media (min-width:1024px){
+    .card{
+        display: flex;
+        height:300px;
+        /* border: 1px solid black; */
+        width: 25%;
+        flex-direction: column;
+        padding: 1%;
+        margin: 3% 0;
+        
+    
+    }
+    .card-img img{
+        height:100%;
+        width: 30%;
+      
+    }
+    .card-img{
+        height: 50%;
+        width: 100%;
+      padding: 7% ;
+      /* border: 1px solid red; */
+    
+    }
+}
+/*-------------------TABLETS----------------------------------------------- */
+@media (max-width:1024px)and ( min-width:769px) {
+    .card{
+        display: flex;
+        height: 350px;
+        /* border: 1px solid black; */
+        width: 35%;
+        flex-direction: column;
+        padding: 1%;
+        margin: 5% 0;
+    }
+    
+      
+    .card-img img{
+        height:100%;
+        width: 60%;
+      
+    }
+     
+}
+
+@media (max-width:768px){
+    .card{
+      
+        
+        width: 50%;
+       
+       margin: 10% 0;
+        
+    
+    }
+}
