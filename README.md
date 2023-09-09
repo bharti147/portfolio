@@ -1,8 +1,8 @@
-![image](https://github.com/bharti147/portfolio/assets/96825584/637dbe57-dfac-45e5-a8b9-3e43cc9ef400)# My Portfolio
+)# My Portfolio
 
 Welcome to my portfolio website, where I showcase my education, skills, and projects. This website provides an overview of my professional background, highlights my technical skills, and offers direct access to my projects and resume.
 
-![Portfolio Screenshot](screenshot.png)
+![Portfolio Screenshot](![image](https://github.com/bharti147/portfolio/assets/96825584/637dbe57-dfac-45e5-a8b9-3e43cc9ef400)
 
 
 ## About
