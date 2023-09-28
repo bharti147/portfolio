@@ -12,5 +12,5 @@ This portfolio website is built using React.js and styled with CSS for a modern 
 
 Check out the live demo of My Portfolio on Netlify:
 
-[Visit My Portfolio](https://portfoliobharti.netlify.app/)
+
 
