@@ -1,0 +1,219 @@
+/* .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  filter: brightness(1.2);
+} */
+/* .background{
+  
+} */
+
+.projectCard {
+  display: flex;
+
+  height: 20rem;
+
+  width: 30%;
+  box-sizing: border-box;
+  padding: 0 1%;
+  box-shadow:1px 1px 3px  rgb(235, 221, 221);
+  border-radius: 50px;
+  margin: 3%;
+justify-content: center;
+align-items: center;
+  position: relative;
+  z-index: 99;
+  background-color: #222;
+  background-blend-mode:lighten;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: hard-light;
+  color: white;
+  transition: all 1s ease-in-out;
+  /* background: rgb(238,174,202); */
+/* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(27,38,52,1) 100%); */
+}
+.projectCard:hover{
+ background-color: #999;
+ background-position: center;
+ box-shadow: 0 0 4px;
+}
+.projectCard-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  opacity: 0; /* Initially, make it invisible */
+ 
+}
+.projectIcons {
+  width: 25%;
+  display: flex;
+  color: rgb(255, 255, 255);
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.projectName{
+  /* color: rgb(13, 13, 40); */
+  font-size: 2rem;
+}
+.projectIcons i {
+  font-size: 1.5rem;
+}
+.projectIcons i:hover {
+  color:#FF662D;
+}
+
+
+.title {
+  font-size: 1.25rem;
+  word-wrap: break-word;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.title:hover {
+  color:#FF662D;
+ 
+
+}
+
+.projectCard-content:hover::before {
+  opacity: 1;
+}
+.projectCard:hover .projectCard-content {
+  opacity: 1;
+  cursor: pointer;
+}
+.projectCard:hover  .projectName{
+  display: none;
+}
+
+
+
+/*-------------------DESKTOP AND LAPTOPS----------------------------------------------- */
+@media (min-width: 1200px){
+    .projectCard {
+        height: 20rem;
+    
+        width: 35%;
+    
+        margin: 0% 0% 7% 0%;
+      }
+}
+@media (max-width: 1200px) and (min-width: 1024px){
+    .projectCard {
+        height: 15rem;
+    
+        width: 42%;
+    
+        margin: 7% 0%;
+      }
+      .projectName{
+        color: rgb(13, 13, 40);
+        font-size: 1.5rem;
+      }
+}
+/*-------------------TABLETS----------------------------------------------- */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .projectCard {
+        height: 15rem;
+    
+        width: 40%;
+    
+        margin: 7% 0%;
+      }
+      .title {
+        font-size: .90rem;
+        word-wrap: break-word;
+       
+      }
+      .projectName{
+        font-size: 1.75rem;
+      }
+}
+
+/* -------------------MOBILE PHONES---------------------------------------------------- */
+@media (max-width: 768px) and (min-width:468px){
+  /*for high resolution mobile*/
+  .projectCard {
+    height: 15rem;
+
+    width: 60%;
+
+    margin: 7% 0;
+   
+  }
+  .projectCard-content{
+
+    padding: 0 2rem;
+    text-align: center;
+  }
+  .title {
+    font-size: .90rem;
+    text-align: center;
+    word-wrap: break-word;
+   
+  }
+  .projectIcons i{
+    margin: 0 .25rem;
+  }
+  .projectName{
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+  }
+}
+@media (max-width: 468px) and (min-width:321px) {
+  /*for low resolution mobile*/
+  h1{
+    text-align: center;
+  }
+  .projectCard {
+    height: 9rem;
+
+    width: 90%;
+
+    margin: 8% 0;
+  }
+  .title {
+    font-size: .60rem;
+    word-wrap: break-word;
+   
+  }
+  .projectName{
+    font-size: 1.2rem;
+  }
+  .projectIcons i{
+    font-size: 1rem;
+  }
+}
+/* @media (max-width: 320px) {
+  .projects{
+    width: 100%;
+  }
+  .projectCard {
+    height: 6rem;
+
+    width: 50%;
+
+    margin: 2rem 3rem;
+  }
+  .title {
+    font-size: .50rem;
+    word-wrap: break-word;
+   
+  }
+  .projectName{
+    font-size: .25rem;
+  }
+  .projectIcons i{
+    font-size: .15rem;
+  }
+} */
