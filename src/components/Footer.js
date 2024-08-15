@@ -14,7 +14,7 @@ function Footer() {
     <li><a href="https://www.linkedin.com/in/bharti-sahani-25a250188/" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-linkedin"></i></a></li>
     <li><a href="https://github.com/bharti147" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-github"></i></a></li>
     <li><a href="https://www.instagram.com/sahanibharti71/" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-instagram"></i></a></li>
-    <li><a href="" target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-telegram"></i></a></li>
+    <li><a  target="_blank" rel="noopener noreferrer">  <i class="fa-brands fa-telegram"></i></a></li>
      </ul>
     
 
